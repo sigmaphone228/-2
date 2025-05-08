@@ -29,8 +29,8 @@ end = int(input("До якого числа виводити: "))
 for i in range(start, end + 1):
     print(i)
 
-n = int(input("Введи n: "))
-
-for i in range(n, 0, -1):
-    if i % 2 == 0:
-        print(i, end=' ')
+n = int(input("Введи число: "))
+factorial = 1
+for i in range(1, n + 1):
+    factorial *= i
+print(f"Факторіал числа {n} = {factorial}")
