@@ -22,3 +22,9 @@ while attempts > 0:
     attempts -= 1
     if attempts == 0:
         print(f"Ви програли. Загадане число було {secret_number}")
+
+start = int(input("З якого числа почати: "))
+end = int(input("До якого числа виводити: "))
+
+for i in range(start, end + 1):
+    print(i)
