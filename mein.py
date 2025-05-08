@@ -34,3 +34,16 @@ factorial = 1
 for i in range(1, n + 1):
     factorial *= i
 print(f"Факторіал числа {n} = {factorial}")
+
+score = int(input("Введи кількість балів: "))
+
+if 0 <= score <= 49:
+    print("Незадовільно.")
+elif 50 <= score <= 69:
+    print("Задовільно.")
+elif 70 <= score <= 89:
+    print("Добре.")
+elif 90 <= score <= 100:
+    print("Відмінно.")
+else:
+    print("Невірне значення балів.")
