@@ -38,12 +38,12 @@ print(f"Факторіал числа {n} = {factorial}")
 score = int(input("Введи кількість балів: "))
 
 if 0 <= score <= 49:
-    print("Незадовільно.")
+    print("погано")
 elif 50 <= score <= 69:
-    print("Задовільно.")
+    print("Задовільно")
 elif 70 <= score <= 89:
-    print("Добре.")
+    print("Добре")
 elif 90 <= score <= 100:
-    print("Відмінно.")
+    print("Відмінно")
 else:
     print("Невірне значення балів.")
