@@ -47,3 +47,21 @@ elif 90 <= score <= 100:
     print("Відмінно")
 else:
     print("Невірне значення балів.")
+
+a = float(input("Введи перше число: "))
+b = float(input("Введи друге число: "))
+operation = input("Введи дію (+, -, *, /): ")
+
+if operation == '+':
+    print(f"Результат: {a + b}")
+elif operation == '-':
+    print(f"Результат: {a - b}")
+elif operation == '*':
+    print(f"Результат: {a * b}")
+elif operation == '/':
+    if b == 0:
+        print("Ділення на нуль")
+    else:
+        print(f"Результат: {a / b}")
+else:
+    print("Невідома операція")
